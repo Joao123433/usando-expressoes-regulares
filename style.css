@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+section {
+  width: 40vw;
+  height: 100vh;
+  background-color: #2D26EF;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+
+section h1 {
+  color: white;
+  font-size: 2em;
+}
+
+section p {
+  color: white;
+  font-size: 1.3rem;
+}
+
+section button {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px;
+  width: 140px;
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 2px 5px 5px rgb(22, 26, 30);
+  background-color: transparent;
+}
+
+form {
+  width: 60vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  gap: 15px;
+}
+
+form h1 {
+  margin: 150px 0px 40px;
+  color: #2D26EF;
+}
+
+form input {
+  width: 25vw;
+  padding: 13px 8px;
+  background-color: #E0E2D7;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+form span {
+  text-align: right;
+  color: red;
+}
+
+form button {
+  margin-top: 25px;
+  width: 150px;
+  padding: 8px 15px;
+  border-radius: 10px;
+  background-color: #2D26EF;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.erro {
+  border: 2px solid red;
+  color: red;
+}
+
+.success {
+  border: 2px solid green;
+}
