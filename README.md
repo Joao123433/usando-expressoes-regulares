@@ -1,13 +1,13 @@
-## Treinando o uso de expressoes regulares para validar email e senha
+# Treinando o uso de expressoes regulares para validar email e senha
 
-# Email
+## Email
 - Um caractere @
 - Texto antes do @ com pelo menos 2 caracteres, números ou _ (underscore).
 - Texto após o @ com pelo menos 2 caracteres
 - Um . seguido de mais texto com pelo menos 2 caracteres após o texto após o @
 - Estrutura de um email válido: xx@xx.xx
 
-# Senha
+## Senha
 - Pelo menos uma letra minúscula.
 - Pelo menos uma letra maiúscula.
 - Pelo menos um número
