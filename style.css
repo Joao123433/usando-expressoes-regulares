@@ -40,6 +40,7 @@ section button {
   border-radius: 10px;
   box-shadow: 2px 5px 5px rgb(22, 26, 30);
   background-color: transparent;
+  cursor: pointer;
 }
 
 form {
@@ -76,10 +77,12 @@ form button {
   width: 150px;
   padding: 8px 15px;
   border-radius: 10px;
+  border: none;
   background-color: #2D26EF;
   color: white;
   font-weight: bold;
   font-size: 1rem;
+  cursor: pointer;
 }
 
 .erro {
