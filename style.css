@@ -49,12 +49,13 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   margin: auto;
   gap: 15px;
 }
 
 form h1 {
-  margin: 150px 0px 40px;
+  margin: 0px 0px 40px;
   color: #2D26EF;
 }
 
